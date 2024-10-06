@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>KeepAlive</key>
+    <true/>
+    <key>Label</key>
+    <string>mgmt-client</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/usr/bin/env</string>
+        <string>/usr/local/bin/mgmt-client</string>
+        <string>-m</string>
+        <string>http://adm.local:2000</string>
+        <string>-m</string>
+        <string>http://10.172.175.198:2000</string>
+    </array>
+    <key>StandardErrorPath</key>
+    <string>/tmp/mgmt-client.stderr</string>
+    <key>StandardOutPath</key>
+    <string>/tmp/mgmt-client.stdout</string>
+</dict>
+</plist>
