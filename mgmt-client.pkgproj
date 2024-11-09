@@ -567,7 +567,7 @@
 			<key>USE_HFS+_COMPRESSION</key>
 			<false/>
 			<key>VERSION</key>
-			<string>0.11.4</string>
+			<string>0.12.3</string>
 		</dict>
 		<key>PROJECT_COMMENTS</key>
 		<dict>
